@@ -69,6 +69,9 @@ android {
         getByName("release") {
             signingConfig = signingConfigs.getByName("release")
         }
+        getByName("debug") {
+            applicationIdSuffix = ".dev"
+        }
     }
     dependenciesInfo {
         includeInApk = false

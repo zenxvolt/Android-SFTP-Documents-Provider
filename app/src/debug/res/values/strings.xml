@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Debug builds use their own authorities so they can be installed
+         next to the release app (different applicationId + authority). -->
+    <string name="authority">lu.knaff.alain.saf_sftp.dev.documents</string>
+    <string name="old_authority">lu.knaff.alain.saf_sftp.dev.old.documents</string>
+</resources>
